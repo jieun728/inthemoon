@@ -1,0 +1,64 @@
+div#contents_wrap{
+  width:100%; height:auto; float:left; margin-top:60px;
+}
+div#contents_wrap a{
+  text-decoration:none; color:black;
+}
+/* info시작 */
+section#info{
+  width:100%; height:400px; margin:0px auto;
+}
+p#info_title{
+  margin-top:40px; font:normal 28px "Noto Sans KR"; text-align:center;
+}
+p#info_text{
+  margin-top:30px; margin-bottom:50px; font:normal 16px "Noto Sans KR"; text-align:center;
+}
+ul#info_list{
+  width:100%; height:80px; float:left;
+}
+ul#info_list li{
+  width:290px; height:100%; margin:0px auto;
+}
+ul#info_list p i{
+  font-size:1.8em; margin-right:20px;
+}
+ul#info_list p a{
+  font:normal 18px "Noto Sans KR"; margin-left:20px;
+}
+ul#info_list span{
+  font-size:14px; margin-left:70px;
+}
+/* info끝 */
+/* contact시작 */
+section#contact{
+  width:90%; height:500px; margin:0px auto;
+}
+form{
+  width:100%; height:362px; float:left; margin-top:70px;
+}
+form{
+  font:normal 18px "Noto Sans KR";
+}
+form p{
+  margin-bottom:10px;
+}
+.text{
+  height:60px; background:#EAECFF; border:none; text-indent:10px; box-sizing: border-box;
+}
+.short{
+  width:49.5%; float:left; margin-right:1%;
+}
+.short2{
+  width:49.5%;
+}
+.long{
+  width:100%;
+}
+textarea{
+  resize:none; width:100%; height:150px; background:#EAECFF; border:none; font:normal 14px "Noto Sans KR"; padding:10px; box-sizing:border-box;
+}
+button{
+  background:#856CCF; height:60px; width:100%; border:none; color:white;
+}
+/* contact끝 */

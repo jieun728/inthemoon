@@ -1,0 +1,39 @@
+@media screen and (max-width:1200px){
+  header#header_inner,footer#footer_inner,section#gallery_inner,div#contents_inner{
+    width:95%;
+  }
+  ul#mainmenu_list li{
+    width:18.75%
+  }
+  ul#mainmenu_list li:last-child{
+    width:25%;
+  }
+}
+@media screen and (max-width:980px){
+  nav#mainmenu,nav#book,nav#contact{
+    display:none;
+  }
+  nav#mobilemenu{
+    display:block;
+  }
+  section#info{
+    font-size:0.9em;
+  }
+}
+@media screen and (max-width:768px){
+  ul#info_list li{
+    width:100%; height:33.33%
+  }
+  p.info_list_title{
+    float:left; margin-top:0px; margin-left:50px; width:100px;
+  }
+  p.info_list_text{
+    float:left; border:none; margin-top:7px; width:50%;
+  }
+  p.info_list_title{
+    height:100px;
+  }
+  section#info{
+    width:100%; height:665px; float:left; border-bottom:solid 1px black;
+  }
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width:1200px){
+  header#header_inner,footer#footer_inner,section#booking{
+    width:95%;
+  }
+  ul#mainmenu_list li{
+    width:18.75%
+  }
+  ul#mainmenu_list li:last-child{
+    width:25%;
+  }
+}
+@media screen and (max-width:980px){
+  nav#mainmenu,nav#book,nav#contact{
+    display:none;
+  }
+  nav#mobilemenu{
+    display:block;
+  }
+}

@@ -1,0 +1,76 @@
+@media screen and (max-width:1200px){
+  header#header_inner,footer#footer_inner,div#about_inner,section#how_inner,section#sense_inner,section#benefits_inner{
+    width:95%;
+  }
+  ul#mainmenu_list li{
+    width:18.75%
+  }
+  ul#mainmenu_list li:last-child{
+    width:25%;
+  }
+  section#movie{
+    top:190px; left:50%; margin-left:-300px;
+  }
+  section#about{
+    top:50px; right:50%; margin-right:-300px;
+  }
+  section#about a{
+    text-align:center; margin-bottom:20px; margin-left:0px;
+  }
+  p#about_more{
+    display:none;
+  }
+
+}
+@media screen and (max-width:980px){
+  nav#mainmenu,nav#book,nav#contact{
+    display:none;
+  }
+  nav#mobilemenu{
+    display:block;
+  }
+  div#benefits_wrap{
+    height:1130px;
+  }
+  ul#benefits_list{
+    width:80%; margin-left:10%;
+  }
+  ul#benefits_list li{
+    width:45%; margin-right:10%; margin-bottom:10px;
+  }
+  ul#benefits_list li:nth-child(2n){
+    margin-right:0%;
+  }
+}
+@media screen and (max-width:890px){
+  ul#sense_list{
+    height:1700px;
+  }
+  div#sense_wrap{
+    height:2100px;
+  }
+  ul#sense_list li{
+    background-position:center top !important;
+  }
+  ul#sense_list li:nth-child(1) p{
+    margin:0px auto;
+  }
+  ul#sense_list li:nth-child(3) p{
+    margin:0px auto;
+  }
+  ul#sense_list li p.sense_list_title{
+    width:500px; margin:0px auto; margin-top:240px; text-align:center;
+  }
+  ul#sense_list li p.sense_list_text{
+    width:auto; margin:0px auto; margin-top:20px; text-align:center;
+  }
+
+}
+@media screen and (max-width:768px){
+  ul#benefits_list{
+    width:90%; margin-left:5%;
+  }
+  ul#benefits_list li{
+    width:48%; margin-right:4%;
+  }
+}

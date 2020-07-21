@@ -1,0 +1,49 @@
+/* contents시작 */
+div#contents_wrap{
+  width:100%; height:auto; float:left; margin-top:60px;
+}
+div#contents_wrap a{
+  text-decoration:none; display:block; color:black;
+}
+p#insta_title a{
+  font:normal 28px "Ubuntu"; color:black; text-align:center; margin-top:40px;
+}
+p#insta_text a{
+  margin-top:10px; margin-bottom:50px; font:normal 16px "Ubuntu"; text-align:center; font-weight:300;
+}
+section#insta{
+  height:auto; width:100%; float:left; position: relative; left:0px; top:0px;
+}
+ul.insta_list{
+  float:left; margin-bottom:150px; margin-top:2px;
+  display:grid; grid-template-columns:repeat(2,1fr); grid-template-rows:repeat(7,1fr);
+}
+ul.insta_list li{
+  border:solid 1px white; box-sizing: border-box; width:100%;
+}
+ul.insta_list li:nth-child(6){
+  grid-column:1/3; grid-row:2/4; width:100%;
+}
+ul.insta_list li img{
+  width:100%; display:block;
+}
+div#insta_more{
+width:100%; height:150px; text-align:center; position:absolute; left:0px; bottom:0px;
+}
+div#insta_more i{
+  font-size:1.7em; line-height:45px; color:white;
+}
+p#insta_morebox{
+  width:40px; height:40px; border-radius: 20px; background:#856CCF; margin:0px auto; margin-top:50px;
+}
+div#insta_more a{
+  font:normal 14px "Ubuntu"; display:block; margin-top:10px;
+}
+
+
+
+@media screen and (orientation:landscape ){ 
+  ul.insta_list{
+    grid-template-columns:repeat(3,1fr); grid-template-rows:repeat(5,1fr);
+   }
+}

@@ -1,0 +1,359 @@
+html,body{
+  height:100%; 
+}
+body{
+  margin:0px; padding:0px; 
+}      
+section#visual_wrap{
+  width:100%; height:600px; float:left; position:relative; left:0px; top:0px; overflow:hidden;
+}
+ul#visual_list{
+  width:100%; height:100%; position: relative; left:0px; top:0px;
+}
+ul#visual_list li{
+  width:100%; height:100%; position:absolute; left:0px; top:0px; opacity:0;
+}
+ul#visual_list li.selected{
+  -webkit-transform: scale(1.1); -webkit-transition:2s;
+}
+ul#visual_list li:nth-child(1){
+  background: url("/images/visual1.png")no-repeat; background-size: cover;
+}
+ul#visual_list li:nth-child(2){
+  background: url("/images/visual5.png")no-repeat; background-size: cover;
+}
+ul#visual_list li div{
+  width:1200px; height:140px; position:absolute; left:50%; margin-left:-600px; bottom:150px; opacity:0;
+}
+p.visual_text_01{
+  width:100%; font:normal 29px "Arita-dotum-Medium"; color:white; margin-bottom:30px;
+}
+p.visual_text_02{
+  width:100%; font:normal 22px "Arita-dotum-Medium"; color:white;
+}
+div#visual_nav{
+  width:1200px; position:absolute; left:50%; margin-left:-600px; bottom:60px; color:white; height:60px;
+}
+#visual_num{
+  width:100px; height:10px; font:normal 22px "Arita-dotum-Medium"; color:white;
+}
+#visual_line{
+  width:170px; height:3px; background:rgba(255,255,255,0.5); position:absolute; left:0px; top:50px;
+}
+#visual_line_bold{
+  width:0px; height:3px; background:rgba(255,255,255,1); position:absolute; left:0px; top:50px;
+}
+#visual_prev{
+  width:40px; height:40px; position:absolute; right:0px; top:-200px; background:url("/images/visual_prev.png")no-repeat; background-size: cover;
+}
+#visual_prev:hover{
+  -webkit-transform: scale(1.2); -webkit-transition: 0.5 ease;
+}
+#visual_next{
+  width:40px; height:40px; position:absolute; right:0px; top:-140px; background:url("/images/visual_next.png")no-repeat; background-size: cover;
+}
+#visual_next:hover{
+  -webkit-transform: scale(1.2); -webkit-transition: 0.5 ease;
+}
+/* 비쥬얼영역끝 */
+/* 컨텐츠영역시작 */
+div#contents_wrap{
+  width:100%; min-height:1000px; float:left; overflow:hidden;
+}
+/* sub contents about 시작 */
+div#about_wrap{
+  width:100%; height:auto; float:left; background:#dbddeb; padding-bottom:20px; position:relative; left:0px; top:0px;
+}
+section#about_inner{
+  width:1200px; height:640px; margin:0px auto; padding-top:70px;
+}
+h2#about_title a{
+  width:270px; height:80px; margin:0px auto; color:black; text-decoration:none;
+  display:block; text-align:center; font:normal 32px "Ubuntu"; margin-bottom:60px;
+  background:url("/images/wave_big.gif") no-repeat 100px 70px;
+}
+p#about_text_01 a{
+ width:700px; height:42px; margin:0px auto; color:black; text-decoration:none; display:block; text-align:center; font:normal 22px "Arita-dotum-Medium";
+}
+p#about_text_02 a{
+ width:960px; height:42px; margin:0px auto; color:black; text-decoration:none; margin-top:10px; display:block; text-align:center; font:normal 18px "Arita-dotum-Medium"; font-weight:300;
+}
+ul#about_icon_list{
+  width:780px; height:auto; margin:0px auto; margin-top:40px;
+}
+ul#about_icon_list li {  
+  width:25%; height:140px; float:left; text-align:center; font:normal 1em/250px "Ubuntu"; margin-bottom:20px; position: relative; left:0px; top:0px;
+}
+ul#about_icon_list p{
+  width:100%; height:100px; overflow:hidden; position:absolute; left:0px; top:0px; -webkit-transition:0.2s ease-in;
+}
+ul#about_icon_list li a{
+  text-decoration:none; color:black; display:block; width:100%; height:40px;
+}
+ul#about_icon_list li:nth-child(1) p{
+  background:url("/images/nosense_01.png") no-repeat; background-position:center top;
+}
+ul#about_icon_list li:nth-child(2) p{
+  background:url("/images/nosense_02.png") no-repeat; background-position:center top;
+}
+ul#about_icon_list li:nth-child(3) p{
+  background:url("/images/nosense_04.png") no-repeat; background-position:center top;
+}
+ul#about_icon_list li:nth-child(4) p{
+  background:url("/images/nosense_03.png") no-repeat; background-position:center top;
+}
+ul#about_icon_list p:hover{
+  background-position:center bottom !important;
+}
+p.more{
+  width:90px; height:33px; position:absolute; bottom:80px; left:50%; margin-left:-45px; border:solid 1px black; text-align:center; box-sizing: border-box;
+}
+p.more a{
+  text-decoration:none; color:black; font:normal 16px/33px "Ubuntu"; display:block; margin-top:-1px;
+}
+p.more:hover{
+  background:#856ccf; border:none;
+}
+p.more a:hover{
+  color:white;
+}
+/* sub contents about 끝 */
+/* sub contents with 시작 */
+div#with_wrap{
+  width:100%; height:auto; float:left; background:white; padding-bottom:20px; position:relative; left:0px; top:0px;
+}
+section#with_inner{
+  width:1200px; height:auto; margin:0px auto; padding-top:70px; position:relative; left:0px; top:0px
+}
+h2#with_title a{
+  width:270px; height:80px; margin:0px auto; color:black; text-decoration:none;
+  display:block; text-align:center; font:normal 24px "Ubuntu"; margin-bottom:60px;
+  background:url("/images/wave_02.jpg") no-repeat 100px 70px;
+}
+ul#with_list{
+  width:100%; height:auto; float:left; position:relative; left:0px; top:0px; margin-bottom:30px;
+}
+ul#with_list li{
+  float:left; width:30%; margin-right:5%; height:650px; position:relative; left:0px; top:0px; margin-bottom:30px; opacity:0;
+}
+ul#with_list li a{
+  text-decoration:none; color:black; 
+}
+ul#with_list li:last-child{
+  margin-right:0px;
+}
+p.with_list_img{
+  width:83.33%; position:absolute; left:50%; margin-left:-41.5%; top:0px; z-index:99;
+}
+p.with_list_img img{
+  width:100%;
+}
+div#with_text_wrap1{
+  width:100%; height:400px; background-color:#faecec; position:absolute; left:0px; bottom:0%;
+}
+div#with_text_wrap2{
+  width:100%; height:400px; background-color:#f7f7ff; position:absolute; left:0px; bottom:0%;
+}
+div#with_text_wrap3{
+  width:100%; height:400px; background-color:#fef5db; position:absolute; left:0px; bottom:0%;
+}
+
+i.fa-quote-left{
+  font-size:1.3em; position:absolute; left:50%; margin-left:-10px; bottom:180px
+}
+i.fa-quote-right{
+  font-size:1.3em; position:absolute; left:50%; margin-left:-10px; bottom:50px;
+}
+p.with_list_title{
+  text-align:center; width:100%; font:normal 18px "Arita-dotum-Medium"; position:absolute; left:50%; margin-left:-50%; bottom:250px
+}
+p.with_list_title span.px24{
+  font-size:1.5em;
+}
+span.px42{
+  font-size:42px !important;
+}
+p.with_list_text{
+  text-align:center; width:75%; font:normal 18px "Arita-dotum-Medium"; font-weight:300; position:absolute; left:50%; margin-left:-37.5%; bottom:100px;
+}
+/* sub contents with 끝*/
+/* sub contents benefits시작 */
+div#benefits_wrap{
+  width:100%; height:655px; float:left; background:url("/images/benefits_bg.png") no-repeat center 0px; background-size:cover;
+}
+section#benefits_inner{
+  width:1200px; height:auto; margin:0px auto; padding-top:70px;
+}
+h2#benefits_title a{
+  width:170px; height:150px; margin:0px auto; color:black; text-decoration:none;
+  display:block; text-align:center; font:normal 24px "Ubuntu"; margin-bottom:35px;
+  background:url("/images/wave_03.jpg") no-repeat 50px 110px; 
+}
+ul#benefits_list{
+  width:100%; height:330px; float:left;
+}
+ul#benefits_list li{
+  width:30%; height:330px; float:left; text-align:center; margin-right:5%; position: relative; left:0px; top:0px;
+}
+ul#benefits_list li:last-child{
+  margin-right:0px;
+}
+ul#benefits_list a{
+  text-decoration:none; color:black;
+}
+div.circle{
+  position:absolute; left:50%; opacity:0; margin-left:-136px; top:90px; width:272px; height:272px; border:solid 1px white; border-radius:136px; box-sizing:border-box; 
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+40,ffffff+76,ffffff+100&0+0,1+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 60%, rgba(255,255,255,0.76) 90%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.2) 60%,rgba(255,255,255,0.76) 90%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.2) 60%,rgba(255,255,255,0.76) 90%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+p.benefits_list_title{
+  font:normal 22px "Ubuntu"; margin-bottom:20px; z-index:99;  margin:0px auto; margin-bottom:20px;
+}
+p.benefits_list_text{
+ font:normal 18px/50px "Arita-dotum-Medium"; font-weight:300; margin:0px auto; height:192px; margin-top:33%; 
+}
+ul#benefits_list li:nth-child(2) p.benefits_list_text{
+  margin-top:25%;
+}
+div.benefits_more{
+  opacity:0; position:absolute; left:-1px; top:-1px; background:#6f98f8; color:white; text-align:center; width:274px; height:274px; border-radius:136px; margin:0px auto; font:normal 24px/272px "Ubuntu";
+}
+/* sub contents benefits끝 */
+/* sub contents insta시작*/
+div#insta_wrap{
+  width:100%; height:570px; background:white; float:left;
+}
+section#insta_inner{
+  width:1200px; height:100%; margin:0px auto; padding-top:70px; position: relative; top:0px; left:0px;
+}
+p#insta_title a{
+    width:270px; height:50px; margin:0px auto; color:black; text-decoration:none;
+  display:block; text-align:center; font:normal 36px "Ubuntu"; font-weight:300;
+}
+p#insta_text a{
+  width:270px; height:80px; margin:0px auto; color:black; text-decoration:none;
+  display:block; text-align:center; font:normal 16px "Ubuntu"; font-weight:300;
+}
+p#prv{
+  width:22px; height:34px; position:absolute; left:30px; top:270px;
+}
+p#next{
+  width:22px; height:34px; position:absolute; right:30px; top:270px;
+}
+ul.insta_list{
+  height:188px; position:absolute; left:0px; top:0px;
+}
+ul.insta_list li{
+  width:188px; float:left; margin-right:15px; position:relative; left:0px; top:0px; overflow: hidden;
+}
+ul.insta_list li img{
+  width:100%;
+}
+ul.insta_list li:hover img{
+  -webkit-transform:scale(1.1); -webkit-transition:0.5s ease;
+}
+ul.insta_list li:last-child{
+  margin-right:0px; 
+}
+div#insta_list_wrap{
+  width:1000px; height:188px; overflow:hidden; margin:0px auto; position:relative; left:0px; top:0px; 
+}
+p.more_insta{
+  bottom:90px; position:absolute; left:50%; margin-left:-45px; width:90px; height:33px; border:solid 1px black; text-align:center; box-sizing: border-box;
+}
+p.more_insta a{
+  text-decoration:none; color:black; font:normal 16px/33px "Ubuntu"; display:block; margin-top:-1px;
+}
+p.more_insta:hover{
+  background:#856ccf; border:none;
+}
+p.more_insta a:hover{
+  color:white;
+}
+div.insta_info{
+  background:rgba(0,0,0,0.6); position:absolute; left:0px; top:0px; width:100%; height:100%; 
+}
+div.insta_info i{
+  color:white; margin-left:20px; margin-right:7px;
+}
+div.insta_info a{
+  text-decoration:none; color:white; font:normal 18px/188px "Ubuntu"; margin-left:15px;
+}
+/* sub contents insta끝 */
+/* sub contents review시작 */
+div#review_wrap{
+  width:100%; height:auto; min-height:600px; float:left; background:#dbddeb;
+}
+section#review_inner{
+  width:1200px; height:auto; margin:0px auto; padding-top:70px; padding-bottom:80px; position: relative; top:0px; left:0px; border-bottom:solid 1px black;
+}
+h2#review_title a{
+  width:200px; height:120px; margin:0px auto; color:black; text-decoration:none;
+  display:block; text-align:center; font:normal 24px "Ubuntu"; margin-bottom:50px;
+  background:url("/images/wave_big.gif") no-repeat 68px 110px
+}
+div#review_list_wrap{
+ width:1090px; height:300px; margin:0px auto; overflow:hidden; position:relative; left:0px; top:0px; 
+}
+ul#review_list{
+  position:absolute; left:0px; top:0px; height:auto; width:1650px;
+}
+ul#review_list li{
+  width:250px; height:auto; min-height:215px; float:left; margin-right:30px;
+}
+ul#review_list li:last-child{
+  margin-right:0px;
+}
+div.box{
+  width:250px; height:auto; background:white; border:solid 1px white; border-radius:10px; margin-bottom:15px;
+  padding:25px; box-sizing: border-box;
+}
+div.box i{
+  color:#ffcc00; margin-bottom:15px;
+}
+p.box_more{
+  margin-bottom:20px; margin-top:10px;
+}
+p.box_text{
+  font:normal 14px/20px "Arita-dotum-Medium"; font-weight:300;
+}
+p.box_google_img{
+  float:left; margin-right:5px;
+}
+p.box_google{
+  font-size:0.75em;
+}
+p.box_google span{
+  color:#4285f4; display:block;
+}
+div.user{
+  margin-left:20px;
+}
+p.user_img a{
+  display:block; margin-right:8px;
+}
+div.user p{
+  float:left;
+}
+p.user_name a{
+   margin-top:7px; font:normal 14px "Arita-dotum-Medium";
+}
+p.user_name span{
+  font-size:0.75em; display:block; text-indent:2px; margin-top:7px;
+}
+div#review_wrap a{
+ text-decoration:none; color:black;
+}
+p#prv2{
+  width:22px; height:34px; position:absolute; top:330px; left:0px;
+}
+p#next2{
+  width:22px; height:34px; position:absolute; top:330px; right:0px;
+}
+div.box_text_wrap{
+  width:100%; height:62px; overflow:hidden;
+}
+

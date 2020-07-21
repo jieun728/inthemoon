@@ -1,0 +1,190 @@
+/* visual영역시작 */
+section#visual_wrap{
+  width:100%; height:195px; float:left; background:url("/floating/images/sub_title_bg.png") no-repeat; background-size:cover; margin-top: 75px;
+}
+h2#visual_title a{
+  margin:70px auto; display:block; font:normal 36px "Ubuntu"; text-decoration:none; color:black; width:140px; text-align:center; font-weight:300;
+}
+/* visual영역끝 */
+/* contents영역시작 */
+div#contents_wrap{
+  float:left; width:100%; height:auto;
+}
+/* about영역시작 */
+div#about_wrap{
+  width:100%; float:left; height:600px;
+}
+div#about_inner{
+  width:1200px; margin:0px auto; height:100%; position:relative;
+}
+section#movie{
+  width:600px; height:337.5px; position: absolute; left:0px; top:131.5px;
+}
+section#movie embed{
+  width:100%; height:100%;
+}
+section#about{
+  width:600px; height:220px; position: absolute; right:0px; top:190px;
+}
+section#about a{
+  text-decoration:none; color:black; display:block; margin-bottom:50px; margin-left:40px;
+}
+h2#about_title a{
+  font:normal 32px "Ubuntu"; font-weight:300;
+}
+p#about_text a{
+ font:normal 14px "Noto Sans KR"
+}
+p#about_more a{
+  font:normal 14px "Noto Sans KR"
+}
+/* about영역끝 */
+/* sense영역시작 */
+div#sense_wrap{
+  float:left; width:100%; height:1600px; background:#e9eaf4;
+}
+section#sense_inner{
+  margin:0px auto; width:900px; height:100%; position:relative; left:0px; top:0px;
+}
+div#sense_wrap a{
+  text-decoration:none; color:black;
+}
+p#sense_title a{
+  font:normal 32px "Ubuntu"; font-weight:300; height:120px; width:100%; padding-top:50px; display:block; border-bottom:solid 1px black; text-align:center;
+}
+p#sense_title_sub a{
+  font:normal 14px "Noto Sans KR"; text-align:center; margin-top:20px; display:block; margin-bottom:70px;
+}
+ul#sense_list{
+  width:100%; height:1100px; float:left;
+}
+ul#sense_list li{
+  width:100%; height:25%; float:left;
+}
+ul#sense_list li:nth-child(1){
+  background:url("/floating/images/img_01.jpg") no-repeat;
+}
+ul#sense_list li:nth-child(2){
+  background:url("/floating/images/img_02.jpg") no-repeat right 0px; 
+}
+ul#sense_list li:nth-child(3){
+  background:url("/floating/images/img_03.jpg") no-repeat;
+}
+ul#sense_list li:nth-child(4){
+  background:url("/floating/images/img_04.jpg") no-repeat right 0px;
+}
+p.sense_list_title{
+  font:normal 24px "Ubuntu"; height:50px; margin-bottom:20px; margin-top:90px; border-bottom:solid 1px black; width:450px;
+}
+p.sense_list_text{
+  font:normal 14px "Noto Sans KR";
+}
+ul#sense_list li:nth-child(1) p{
+  margin-left:54%;
+}
+ul#sense_list li:nth-child(3) p{
+  margin-left:54%;
+}
+p#floating_book{
+  width:148px; height:53px; border-radius:10px; border:solid 2px #856ccf; background:white; position:absolute; left:50%; margin-left:-74px; bottom:130px;
+}
+p#floating_book a{
+  text-align:center; display:block; font:normal 24px/53px "Ubuntu"; color:#856ccf;
+}
+/* sense영역끝 */
+/* how to float영역 시작 */
+div#how_wrap{
+  width:100%; height:726px; float:left; background:url("/floating/images/howto_bg.png") no-repeat; background-size:cover;
+}
+div#how_wrap a{
+  text-decoration:none;
+}
+section#how_inner{
+  width:610px; height:100%; margin:0px auto;
+}
+h2#how_title a{
+  font:normal 36px "Ubuntu";color:white; height:150px; width:100%; padding-top:50px; padding-bottom:50px; display:block; text-align:center;
+}
+ul#how_list{
+  height:500px; width:100%; float:left;
+}
+ul#how_list li{
+  height:16.66%; width:100%; float:left; position: relative; left:0px; top:0px;
+}
+div.how_box{
+  background:white; width:80px; height:80px; border-radius:40px; margin:0px auto;
+}
+ul#how_list li:nth-child(odd) div.how_box::before{
+  content:""; width:10px; height:10px; border-radius:5px; background:white; position: absolute; left:50%; margin-left:-317px; bottom:37px;
+}
+ul#how_list li:nth-child(even) div.how_box::after{
+  content:""; width:10px; height:10px; border-radius:5px; background:white; position: absolute; right:50%; margin-right:-317px; bottom:37px;
+}
+ul#how_list li:nth-child(odd) div.how_text a{
+  right:50%; margin-right:40px;
+}
+ul#how_list li:nth-child(2n) div.how_text a{
+  left:50%; margin-left:40px;
+}
+div.how_box a{
+  color:#856ccf; font:normal 36px/80px "Noto Sans KR"; text-align:center; width:80px; display:block;
+}
+div.how_text a{
+  font:normal 14px/21px "Noto Sans KR"; color:white; width:277px; text-align:center; position:absolute; top:-10px;
+  border-bottom:solid 2px white; height:50px;
+}
+/* how to float영역 끝 */
+/* benefits영역 시작 */
+div#benefits_wrap{
+  float:left; width:100%; height:690px;
+}
+section#benefits_inner{
+  width:1200px; height:100%; margin:0px auto;
+}
+div#benefits_wrap a{
+  text-decoration:none; color:black;
+}
+h2#benefits_title a{
+  font:normal 32px "Ubuntu"; font-weight:300; padding-top:60px; display:block; text-align:center; padding-bottom:50px;
+}
+ul#benefits_list{
+  float:left; width:100%;
+}
+ul#benefits_list li{
+  float:left; width:23%; margin-right:2.66%; position:relative; top:0px; left:0px; height:435px;
+}
+ul#benefits_list li:last-child{
+  margin-right:0px;
+}
+div.benefits_box{
+  width:100%; height:374px; background:#f0d774; position:absolute; left:0px; bottom:0px;
+}
+div.picto_wrap{
+  width:150px; height:150px; background-color:white; border-radius:75px;position:absolute; left:50%; margin-left:-75px; top:0px; z-index:99;
+}
+div.picto{
+  width:100%; height:100%; position:absolute; left:50%; margin-left:-75px; top:0px; z-index:99;
+}
+ul#benefits_list li:nth-child(1) div.picto{
+  background:url("/floating/images/picto_01.jpg") no-repeat center 5px;
+}
+ul#benefits_list li:nth-child(2) div.picto{
+  background:url("/floating/images/picto_02.jpg") no-repeat center 20px;
+}
+ul#benefits_list li:nth-child(3) div.picto{
+  background:url("/floating/images/picto_03.jpg") no-repeat center 15px;
+}
+ul#benefits_list li:nth-child(4) div.picto{
+  background:url("/floating/images/picto_04.jpg") no-repeat center 20px;
+}
+div.picto_wrap a{
+  font:normal 24px "Ubuntu"; text-align:center; display:block; margin-top:100px; font-weight:300;
+}
+p.benefits_list_title a{
+  font:normal 16px/24px "Noto Sans KR"; width:150px; text-align:center; position:absolute; left:50%; margin-left:-75px; top:140px;
+}
+p.benefits_list_text a{
+  font:normal 14px/21px "Noto Sans KR"; width:210px; text-align:center; position:absolute; left:50%; margin-left:-105px; top:240px;
+}
+/* benefits영역 끝 */
+/* contents영역끝 */

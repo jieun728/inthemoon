@@ -1,0 +1,161 @@
+@media screen and (max-width:1200px){
+  header#header_inner,ul#visual_list li div,div#visual_nav,section#about_inner,section#with_inner,section#benefits_inner,
+  section#insta_inner,section#review_inner,footer#footer_inner{
+    width:95%;
+  }
+  div#with_wrap{
+    font-size:0.85em;
+  }
+  ul#with_list li{
+    height:600px;
+  }
+  div#insta_list_wrap{
+    width:594px;
+  }
+  div#review_list_wrap{
+    width:810px;
+  }
+  ul#visual_list li div,div#visual_nav{
+    margin-left:-47.5%;
+  }
+}
+@media screen and (max-width:980px){
+  div#visual_text{
+    top:50px; font-size:0.8em;
+  }
+  p#about_text_02 a{
+    width:60%; padding-bottom:10px;
+  }
+  div#with_wrap{
+    font-size:0.8em;
+  }
+  ul#with_list li{
+    height:580px;
+  }
+  div#review_list_wrap{
+    width:530px;
+  }
+}
+@media screen and (max-width:900px){
+  div#benefits_wrap{
+    font-size:0.85em
+  }
+  div.circle{
+    width:210px; height:210px; margin-left:-105px;
+  }
+  div.benefits_more{
+    width:210px; height:210px; line-height: 210px;
+  }
+  div#benefits_wrap{
+    height:600px;
+  }
+  p.benefits_list_text{
+    margin-top:27%; 
+   }
+   ul#benefits_list li:nth-child(2) p.benefits_list_text{
+     margin-top:18%;
+   }
+}
+@media screen and (max-width:840px){
+  div#about_wrap{
+    font-size:0.85em;
+  }
+  p#about_text_01 a{
+    width:100%; padding-bottom:10px;
+  }
+  ul#about_icon_list{
+    width:40%;
+  }
+  ul#about_icon_list li{
+    width:45%; margin-right:10%;
+  }
+  ul#about_icon_list li:nth-child(2n){
+    margin-right:0px;
+  }
+  div#about_wrap{
+    padding-bottom:120px;
+  }
+  p.more{
+    bottom:60px;
+  }
+  ul#with_list li{
+    height:500px;
+  }
+}
+@media screen and (max-width:768px){
+  div#insta_list_wrap{
+    width:391px;
+  }
+  div#review_list_wrap{
+    width:250px;
+  }
+  p#prv2{
+    left:30px;
+  }
+  p#next2{
+   right:30px;
+  }
+  section#benefits_inner{
+    width:100%
+  }
+}
+@media screen and (max-width:700px){
+  ul#benefits_list{
+    width:auto; float:none; margin:0px auto;
+  }
+  ul#benefits_list li{
+    margin-right:0px; width:33.33%;
+  }
+  div.circle{
+    width:185px; height:185px; margin-left:-92.5px;
+  }
+  div.benefits_more{
+    width:185px; height:185px; line-height: 185px;
+  }
+  p.benefits_list_title{
+    width:120px;
+  }
+}
+@media screen and (max-width:600px){
+  div#insta_list_wrap{
+    width:188px;
+  }
+}
+@media screen and (max-width:480px){
+  section#movie_wrap{
+    padding-bottom:0%; width:416px; height:662px; left:50%; margin-left:-208px;
+  }
+  video#movie_mobile{
+    display:block;
+  }
+  embed#movie{
+    display:none; 
+  }
+  div#visual_text{
+    top:350px; left:50%; margin-left:-175px; font-size:0.6em;
+  }
+  h2#about_title a{
+    margin-bottom:30px;
+  }
+  p#about_text_01 a{
+    width:75%; margin-bottom:20px;
+  }
+  p#about_text_02 a{
+    width:70%; display:none;
+  }
+  ul#about_icon_list{
+    width:80%; margin-top:70px;
+  }
+  div#about_wrap{
+    font-size:0.75em;
+  }
+  ul#with_list li{
+    width:100%; margin-right:0px; height:550px; display:none;
+  }
+  ul#with_list li:first-child{
+    display:block;
+  }
+  section#with_inner{
+    width:70%;
+  }
+}

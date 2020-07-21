@@ -1,0 +1,53 @@
+@media screen and (max-width:1200px){
+  header#header_inner,footer#footer_inner,section#gallery_inner{
+    width:95%;
+  }
+  section#location_inner{
+    width:100%;
+  }
+  ul#mainmenu_list li{
+    width:18.75%
+  }
+  ul#mainmenu_list li:last-child{
+    width:25%;
+  }
+}
+@media screen and (max-width:980px){
+  nav#mainmenu,nav#book,nav#contact{
+    display:none;
+  }
+  nav#mobilemenu{
+    display:block;
+  }
+}
+@media screen and (max-width:800px){
+  div#location_info{
+    float:left; width:45%; height:350px; margin-top:80px; margin-left:5%;
+  }
+}
+@media screen and (max-width:745px){
+  ul#gallery_list li{
+    width:100%; margin-right:0px; float:left; margin-bottom:120px;
+  }
+  div#gallery_wrap{
+    height:2660px;
+  }
+  section#gallery_inner{
+    width:480px;
+  }
+  ul#gallery_list li:nth-child(3){
+    margin-top:0px
+  }
+  ul#gallery_list li:nth-child(4){
+    margin-top:0px
+  }
+}
+@media screen and (max-width:645px){
+  p#gallery_text{
+    width:380px; 
+  }
+  p#gallery_text span{
+    width:400px;
+  }
+}
+

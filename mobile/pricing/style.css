@@ -1,0 +1,90 @@
+div#contents_wrap{
+  width:100%; height:auto; float:left; margin-top:60px;
+}
+div#contents_wrap a{
+  text-decoration:none; display:block;
+}
+div#contents_wrap h2 a{
+  margin-top:40px; font:normal 28px "Noto Sans KR"; text-align:center; color:black; margin-bottom:30px;
+}
+p#price_text a{
+  margin-top:10px; margin-bottom:50px; font:normal 16px "Noto Sans KR"; text-align:center; color:black;
+}
+/* price시작 */
+section#price{
+  width:100%; height:auto; float:left; margin-bottom:30px;
+}
+ul#price_list{
+  width:100%; height:auto; float:left;
+}
+ul#price_list li{
+  background:#e9eaf4; box-shadow: 1px 1px 1px 1px gray; width:300px; margin:0px auto; padding:30px; box-sizing: border-box; margin-bottom:20px; height:220px; color:#856ccf; font:normal 24px "Ubuntu"; text-align:center;
+}
+ul#price_list span{
+  color:black; font-size:18px; line-height:30px; margin-top:15px; margin-bottom:20px; display:block;
+}
+p.book{
+  width:112px; height:39px; border-radius:10px; background:#856ccf; color:white; margin:0px auto; font:normal 16px/37px "Ubuntu";
+}
+/* price끝 */
+/* member시작 */
+section#member{
+  width:100%; height:auto; float:left; margin-bottom:40px;
+}
+ul#member_list{
+  width:200px; height:auto; margin:0px auto;
+}
+ul#member_list li{
+  width:200px; height:200px; float:left; background:#ffd118; border-radius:153px;
+  margin-right:30px; font:normal 14px/27px "Noto Sans KR"; color:black; text-align:center;
+}
+ul#member_list li a{
+  color:black;
+}
+ul#member_list li:last-child{
+  margin-right:0px;
+}
+ul#member_list li:nth-child(1) p.picto{
+  background:url("/pricing/images/picto_01.jpg") no-repeat 60px 50px; width:90%; height:60%;
+}
+ul#member_list li:nth-child(2) p.picto{
+  background:url("/pricing/images/picto_02.jpg") no-repeat 65px 40px; width:90%; height:65%;
+}
+ul#member_list li:nth-child(3) p.picto{
+  background:url("/pricing/images/picto_03.jpg") no-repeat 65px 40px; width:90%; height:65%;
+}
+/* member끝 */
+/* event시작 */
+section#event{
+  width:100%; height:auto; float:left; margin-bottom:20px;
+}
+ul#event_list{
+  width:100%; height:auto;
+}
+ul#event_list li{
+  font:normal 18px/30px "Noto Sans KR"; height:201px; margin-bottom:20px; overflow:hidden;
+}
+ul#event_list li a{
+  text-align:center; padding-top:65px; height:100px; color:black;
+}
+ul#event_list li:nth-child(1){
+  background:url("/pricing/images/img_01.jpg") no-repeat -600px 0px; 
+}
+ul#event_list li:nth-child(2){
+  background:url("/pricing/images/img_02.jpg") no-repeat -400px 0px;
+}
+ul#event_list li:nth-child(3){
+  background:url("/pricing/images/img_03.jpg") no-repeat -480px 0px;
+}
+ul#event_list li:nth-child(3) a{
+  color:white;
+}
+/* event끝 */
+
+
+
+@media screen and (orientation:landscape){
+  ul#event_list li{
+    background-position: -250px 0px !important;
+  }
+}
